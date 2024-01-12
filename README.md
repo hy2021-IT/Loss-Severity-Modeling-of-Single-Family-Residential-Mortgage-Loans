@@ -38,6 +38,6 @@ My team and I were working on a linear regression model to predict loss given de
 ![image](./docs/LGD_R2.png)
 
 ## Model validation
-- The testing dataset was applied on the 12-factors model to validate how accurate the predicted Loss Given Default was compared to the actual Loss Given Default. Using an important variable market to market loan to value ratio (MTM-LTV) as an indicator for comparison, it could be realized in the figure below that the predicted average Loss Given Default was very close to the actual average Loss Given Default as long as there was a large enough sample size.
+- The testing dataset was applied on the 12-factors model to validate how accurate the predicted Loss Given Default was compared to the actual Loss Given Default. Using an important variable market to market loan to value ratio (MTM-LTV) as an indicator for comparison, it could be realized in the figure created by Tableau below that the predicted average Loss Given Default was very close to the actual average Loss Given Default as long as there was a large enough sample size.
 
 ![image](./docs/LGD_dual_axis.png)
