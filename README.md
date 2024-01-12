@@ -30,5 +30,6 @@ My team and I were working on a linear regression model to predict loss given de
 
  - Based on the histogram of our predicting variable - Loss Given Default, there exist extreme outliers. A specific range of value of Loss Given Default is determined to retain the dominant distribution of Loss Given Default, where vast majority of the dataset observations are congregated. The figure below shows the histogram of Loss Given Default before and after removing outlier
 
-![App Screenshot](../ImageREADME/outlier.png)
+![App Screenshot](../docs/LGD_dual_axis.png)
+![image](../docs/outlier.png)
 
