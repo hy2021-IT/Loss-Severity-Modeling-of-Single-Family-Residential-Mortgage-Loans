@@ -25,7 +25,10 @@ My team and I were working on a linear regression model to predict loss given de
 
  - exploratory_Analysis.ipynb : The Python notebook that provides the exploratory data analysis of mortgage loan datasets after applying the final version of the data wrangling
 
-# Using the data cleaning -
-python Data_cleaning.py zip_file_name
+## Sampling and removing outlier
+ - After finishing data wrangling, stratified sampling is appplied to make sure there are equal number of samples randomly choosen from various datasets of respective years and quarters
 
-changed to new branch
+ - Based on the histogram of our predicting variable - Loss Given Default, there exist extreme outliers. A specific range of value of Loss Given Default is determined to retain the dominant distribution of Loss Given Default, where vast majority of the dataset observations are congregated. The figure below shows the histogram of Loss Given Default before and after removing outlier
+
+![App Screenshot](../ImageREADME/outlier.png)
+
